@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main- Print the sizes of various data types
+ *main: Print the sizes of various data types
  *
- *Return: return 0 if exited properly, non-zero otherwise
+ *Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {

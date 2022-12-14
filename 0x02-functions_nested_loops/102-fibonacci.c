@@ -7,20 +7,18 @@
  */
 int main(void)
 {
-int i = 0;
-long int a = 0, b = 1, next;
-while (i < 50)
+int c;
+long int n1, n2, fn;
+n1 = 1;
+n2 = 2;
+printf("%ld, %ld", n1, n2);
+for (c = 0; c < 48; c++)
 {
-next = a + b;
-a = b;
-b = next;
-printf("%lu", next);
-if (i < 49)
-{
-printf(" , ");
+fn = n1 + n2;
+printf(", %ld", fn);
+n1 = n2;
+n2 = fn;
 }
-i++;
-}
-putchar('\n');
+printf("\n");
 return (0);
 }

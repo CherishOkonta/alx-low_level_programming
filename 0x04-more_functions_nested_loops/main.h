@@ -14,5 +14,6 @@ int add(int a, int b);
 void print_to_98(int n);
 int _putchar(char);
 void num(int r, int n);
+int _isupper(int c);
 
 #endif

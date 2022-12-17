@@ -15,5 +15,6 @@ void print_to_98(int n);
 int _putchar(char);
 void num(int r, int n);
 int _isupper(int c);
+int _isdigit(int c);
 
 #endif

@@ -1,0 +1,6 @@
+#include "main.h"
+/**
+ *cap_string- capitalize words
+ *@str: string
+ *Return: return pointer to string
+ */

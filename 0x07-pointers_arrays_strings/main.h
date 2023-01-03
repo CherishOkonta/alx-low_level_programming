@@ -1,10 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stddef.h>
+#include <string.h>
 
 void *_memset(void *s, int c, size_t n);
 char *_memcpy(char *dest, char *src, unsigned int n);
-char *strchr(char *s, char c);
 unsigned int_strson(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
